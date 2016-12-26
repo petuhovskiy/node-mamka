@@ -69,8 +69,6 @@ const updateIndex = (content) => {
 };
 
 app.post('/add', urlencodedParser, (req, res) => {
-	console.log(req);
-	console.log(req.body);
 	const {title, content, tags} = req.body;
 	updateIndex(processTemplate(title, content, tags));
 	res.redirect('/');
