@@ -4,8 +4,12 @@ init:
 init-arthur:
 	git clone https://github.com/petuhovskiy/mygithubpage.git static
 	cd static && git checkout gh-pages
+dev:
+	npm install
 update:
+	cd static && git stash
 	cd static && git pull
+	cd static && git stash pop
 run:
 	npm start
 docker-build:
