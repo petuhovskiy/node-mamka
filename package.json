@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/petuhovskiy/node-mamka/issues"
   },
-  "homepage": "https://github.com/petuhovskiy/node-mamka#readme"
+  "homepage": "https://github.com/petuhovskiy/node-mamka#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
