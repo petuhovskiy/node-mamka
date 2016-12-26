@@ -1,0 +1,19 @@
+{
+  "name": "node-mamka",
+  "version": "1.0.0",
+  "description": "Simple http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petuhovskiy/node-mamka.git"
+  },
+  "author": "Arthur Petukhovsky <petuhovskiy@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petuhovskiy/node-mamka/issues"
+  },
+  "homepage": "https://github.com/petuhovskiy/node-mamka#readme"
+}
