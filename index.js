@@ -5,6 +5,10 @@ const escape = require('escape-html');
 const marked = require('marked');
 const bodyParser = require('body-parser')
 
+marked.setOptions({
+	sanitize: true
+});
+
 const template = (strings, ...keys) => {
   return ((...values) => {
     const dict = values[values.length - 1] || {};
